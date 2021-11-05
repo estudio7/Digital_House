@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* cor de fundo da tag body em modo hexadecimal no valor #131313 */
+h2 {
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    
+}
+.content-img {
+    background-image: url(https://picsum.photos/1280/720);
+    width: 1280px;
+    height: 720px!important;
+    text-align: center;
+    padding: 300px 0;
+    margin: 0 auto;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.descripcao {
+    padding: 50px;
+    background: rgb(76, 175, 80, 0.4);
+}
+button {
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: 0px;
+    color: #fff;
+    background: yellowgreen;
+}
