@@ -1,0 +1,43 @@
+/* Precisamos desenvolver um menu para um microondas super veloz, onde teremos 5 opções de comida com seus respectivos tempos pré-definidos. 
+
+1 - Pipoca – 10 segundos (padrão);
+2 - Macarrão – 8 segundos (padrão);
+3 - Carne – 15 segundos (padrão);
+4 - Feijão – 12 segundos (padrão);
+5 - Brigadeiro – 8 segundos (padrão); 
+
+- O usuário poderá alterar o tempo padrão, aumentando ou diminuindo de acordo com sua vontade. Se o tempo informado for maior que 2x o necessário, exibir mensagem que a comida queimou.
+- Se o tempo for menor que o padrão, exibir a mensagem: "tempo insuficiente"; 
+- Opções não listadas no menu, devem exibir uma mensagem de erro: "Prato inexistente";
+- Se o tempo for 3x maior que o necessário para o prato, o microondas deve exibir a mensagem: “kabumm”;
+- No final de cada tarefa, o microondas deverá exibir a mensagem: "Prato pronto, bom apetite!!!". */
+
+let timeDish = {  
+    popcorn: 10,
+    spaghetti: 8,
+    beef: 15,
+    bean: 12,
+    brigadier: 8,
+  };
+  
+  function microwave(dish, timeMicrowave) {
+
+    let timePreparation = timeDish[dish];
+
+    if (timeMicrowave >=3*timePreparation) {
+        return "KABUMMM!!!";
+
+      } else if (timeMicrowave >=2*timePreparation) {
+        return "food burned!";
+
+      } else if (timeMicrowave <timePreparation) {
+
+        return "Insufficient time";
+      } else if (dish!== 'popcorn' && dish!=='spaghetti' && dish!=='beef' && dish!=='bean'&& dish!=='brigadier')  {
+
+        return "dish nonexistent!!!";
+      } else {
+        return "Dish ready, bom apetite!!!";
+      }
+      
+    }console.log(microwave("popcorn",10));
