@@ -1,0 +1,69 @@
+/* cor de fundo da tag body em modo hexadecimal no valor #131313 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,100;0,400;0,700;1,100&family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap');
+body {
+    background-image: url(../img/rio-janeiro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+li {
+    font-family: 'Poppins', sans-serif;
+}
+.header-site {
+    padding: 20px;
+    background: #000;
+}
+.descripcao {
+    border-top: 1px solid;
+    margin: 0 auto;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    padding: 30px 50px;
+}
+.descripcao-curiosidades {
+    border-radius: 30px;
+    margin: 0 auto;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    padding: 30px 50px;
+    
+    background: rgba(51, 170, 51, .6)
+}
+
+.redes-sociais li {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+    font-size: 35px;
+    display: inline;
+}
+.redes-sociais ul {
+    text-align: center;
+}
+.instrucoes {
+    font-size: 10px;
+    background: #fff;
+    padding: 20px 100px;
+    margin: 150px;
+    border-radius: 50px;
+}
+
+
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
