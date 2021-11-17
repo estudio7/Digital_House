@@ -1,0 +1,238 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Miguel Oduber - Loja de doces</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="row" style="margin: 10px 50px;vertical-align: middle;">
+                <div class="logo col-md-12">
+                    <img src="./img/logo.png" width="200px" style="padding: 10px;">
+                    <h1> Formulario de pedido </h1>
+                </div>
+                
+            </div>
+
+        </header>
+        <div class="row">
+            <div class="formulario col-md-6">
+
+                <form class="form-horizontal">
+                    <fieldset>
+
+                        <!-- Form Name -->
+                        <legend>Loja Doce Vita</legend>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-10 control-label" for="Nome completo">Nome Completo</label>
+                            <div class="col-md-10">
+                                <input id="Nome completo" name="Nome completo" type="text"
+                                    placeholder="Digite seu nome completo..." class="form-control input-md" required="">
+
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-10 control-label" for="Email">Email</label>
+                            <div class="col-md-10">
+                                <input id="Email" name="Email" type="text" placeholder="Digite seu melhor email..."
+                                    class="form-control input-md">
+
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-10 control-label" for="textinput">Endereço de entrega</label>
+                            <div class="col-md-10">
+                                <input id="textinput" name="textinput" type="text"
+                                    placeholder="Insera seu endereço completo..." class="form-control input-md">
+
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-10 control-label" for="Telefone">Telefone</label>
+                            <div class="col-md-10">
+                                <input id="Telefone" name="Telefone" type="text"
+                                    placeholder="Digite seu telefone com DDI" class="form-control input-md">
+
+                            </div>
+                        </div>
+
+                        <!-- Select Basic -->
+                        <div class="form-group">
+                            <label class="col-md-10 control-label" for="selectbasic">Tipo de Pagamento</label>
+                            <div class="col-md-10">
+                                <select id="selectbasic" name="selectbasic" class="form-control">
+                                    <option value="1">Debito</option>
+                                    <option value="2">Credito</option>
+                                    <option value="3">Dineirho</option>
+                                    <option value="4">VR</option>
+                                </select>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dados de seu pedido</legend>
+                        <!-- Multiple Checkboxes -->
+                        <div class="form-group">
+                            <label class="col-md-10 control-label" for="doces">Doces</label>
+                            <div class="col-md-10">
+                                <div class="checkbox">
+                                    <label for="doces-0">
+                                        <input type="checkbox" name="doces" id="doces-0" value="Pipoca">
+                                        Pipoca
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="doces-1">
+                                        <input type="checkbox" name="doces" id="doces-1" value="Cocada">
+                                        Cocada
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="doces-2">
+                                        <input type="checkbox" name="doces" id="doces-2" value="Queijadinha">
+                                        Queijadinha
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="doces-3">
+                                        <input type="checkbox" name="doces" id="doces-3" value="Sorvete">
+                                        Sorvete
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="doces-4">
+                                        <input type="checkbox" name="doces" id="doces-4" value="Chiclete">
+                                        Chiclete
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="doces-5">
+                                        <input type="checkbox" name="doces" id="doces-5" value="Sundae de chocolate">
+                                        Sundae de chocolate
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="doces-6">
+                                        <input type="checkbox" name="doces" id="doces-6" value="Paçoca">
+                                        Paçoca
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="doces-7">
+                                        <input type="checkbox" name="doces" id="doces-7" value="Mariola">
+                                        Mariola
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="doces-8">
+                                        <input type="checkbox" name="doces" id="doces-8" value="Quindim">
+                                        Quindim
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="doces-9">
+                                        <input type="checkbox" name="doces" id="doces-9" value="Frumelo">
+                                        Frumelo
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="doces-10">
+                                        <input type="checkbox" name="doces" id="doces-10"
+                                            value="Doce de abóbora com coco">
+                                        Doce de abóbora com coco
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="doces-11">
+                                        <input type="checkbox" name="doces" id="doces-11" value="Bala juquinha">
+                                        Bala juquinha
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="doces-12">
+                                        <input type="checkbox" name="doces" id="doces-12" value="Algodão doce">
+                                        Algodão doce
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="doces-13">
+                                        <input type="checkbox" name="doces" id="doces-13" value="Manjar">
+                                        Manjar
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Multiple Radios (inline) -->
+                        <div class="form-group">
+                            <label class="col-md-10 control-label" for="radios">Selecione a quantidade</label>
+                            <div class="col-md-10">
+                                <label class="radio-inline" for="radios-0">
+                                    <input type="radio" name="radios" id="radios-0" value="6" checked="checked">
+                                    6
+                                </label>
+                                <label class="radio-inline" for="radios-1">
+                                    <input type="radio" name="radios" id="radios-1" value="12">
+                                    12
+                                </label>
+                                <label class="radio-inline" for="radios-2">
+                                    <input type="radio" name="radios" id="radios-2" value="24">
+                                    24
+                                </label>
+                                <label class="radio-inline" for="radios-3">
+                                    <input type="radio" name="radios" id="radios-3" value="36">
+                                    36
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Textarea -->
+                        <div class="form-group">
+                            <label class="col-md-10 control-label" for="textarea">Observaçoes</label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="textarea"
+                                    name="textarea">Escreva aqui alguma observaçao..</textarea>
+                            </div>
+                        </div>
+
+                        <!-- Button (Double) -->
+                        <div class="form-group">
+                            <div class="col-md-8">
+                                <button id="button1id" name="button1id" class="btn btn-success">Enviar</button>
+                                <button id="button2id" name="button2id" class="btn btn-default">Limpar</button>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+
+
+
+            </div>
+            <div class="col-md-6 image">
+                <img src="./img/doces.jpg" width="100%">
+
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
