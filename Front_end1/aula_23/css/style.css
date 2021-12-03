@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,100;0,400;0,700;1,100&family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap');
+
+.principal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 200px;
+}
+ul {
+    margin: 0 auto;
+    padding: 0;
+}
+ul li {
+    display: inline;
+    padding: 2%;
+}
+.menu {
+    width: 100vw;
+    background: cadetblue;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    padding: 0 0 10px 0;
+}
